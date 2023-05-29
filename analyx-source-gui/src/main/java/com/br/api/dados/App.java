@@ -26,10 +26,10 @@ public class App {
         Scanner scanner1 = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);
         
-        System.out.println("Email:");
-        String email = scanner1.nextLine();
-        System.out.println("Senha:");
-        String senha = scanner2.nextLine();
+        
+        String email = "ec2@analyx.com";
+        
+        String senha = "1234";
         try {
             Usuario user = usuarioDAO.entrarAzure(email, senha);
             String hostName = looca.getRede().getParametros().getHostName();
