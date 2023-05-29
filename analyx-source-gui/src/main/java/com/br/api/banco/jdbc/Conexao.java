@@ -16,7 +16,7 @@ public class Conexao {
 
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 
-        dataSource.setUrl("jdbc:mysql://ContainerAnalyx/bd_analyx");;
+        dataSource.setUrl("jdbc:mysql://ContainerAnalyx:3306/bd_analyx");;
 
         dataSource.setUsername("root");
 

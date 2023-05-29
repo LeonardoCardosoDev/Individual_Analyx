@@ -27,7 +27,7 @@ public class App {
         Scanner scanner2 = new Scanner(System.in);
         
         
-        String email = "marcio@email.com";
+        String email = "ec2@analyx.com";
         
         String senha = "1234";
         try {
