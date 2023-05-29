@@ -16,7 +16,7 @@ public class Conexao {
 
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 
-        dataSource.setUrl("jdbc:mysql://0.0.0.0:3306/bd_analyx?autoReconnect=true&useSSL=false");;
+        dataSource.setUrl("jdbc:mysql://ContainerAnalyx/bd_analyx");;
 
         dataSource.setUsername("root");
 
@@ -27,7 +27,6 @@ public class Conexao {
 //        dataSource.setUsername("");
 //
 //        dataSource.setPassword("");
-
         this.conexaoDoBanco = new JdbcTemplate(dataSource);
     }
 
